@@ -20,7 +20,7 @@ Menu Items
 
 ### Frontend Integration
 Integrate the API with your front end using the provided MenuItemsView and SingleMenuItemView. You can use the following example code:
-# views.py
+###  views.py
 from django.shortcuts import render
 import requests
 
