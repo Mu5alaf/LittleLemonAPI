@@ -24,7 +24,7 @@ Integrate the API with your front end using the provided MenuItemsView and Singl
 from django.shortcuts import render
 import requests
 # Create your views here.
-def homeView(request):
+## def homeView(request):
     api_url='http://127.0.0.1:8000/api/menu-item'
     try:
         response = requests.get(api_url)
