@@ -20,19 +20,20 @@ Menu Items
 
 ### Frontend Integration
 Integrate the API with your front end using the provided MenuItemsView and SingleMenuItemView. You can use the following example code:
-###  views.py
+### views.py
+
 from django.shortcuts import render
 import requests
-
+# Create your views here.
 def homeView(request):
-    api_url = 'http://127.0.0.1:8000/api/menu-items'
-    
+    api_url='http://127.0.0.1:8000/api/menu-item'
     try:
         response = requests.get(api_url)
         response.raise_for_status()
         data = response.json()
-    except requests.RequestException as e:
-        data = {'error': f'request failed: {str(e)}'}
-    
-    return render(request, "LittleLemon/layout.html", {'response': data})
+    except request.RequestException as e:
+        data = {'error':f'request failed:{str(e)}'}
 
+###Snapscreen
+   ![screen-recorder-sun-jan-14-2024-17-33-38](https://github.com/Mu5alaf/LittleLemonAPI/assets/109148687/417db01e-6dc9-43d3-92c2-bf857e4a69e7)
+ 
