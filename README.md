@@ -18,10 +18,7 @@ Menu Items
    + GET /api/menu-items/: Retrieve a list of all menu items.
    + GET /api/menu-items/{id}/: Retrieve details of a specific menu item by ID
 
-### Frontend Integration
-Integrate the API with your front end using the provided MenuItemsView and SingleMenuItemView. You can use the following example code:
-
-## Snapscreen
+### Snapscreen
 
 
    ![screen-recorder-sun-jan-14-2024-17-33-38](https://github.com/Mu5alaf/LittleLemonAPI/assets/109148687/417db01e-6dc9-43d3-92c2-bf857e4a69e7)
