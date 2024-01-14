@@ -12,7 +12,7 @@ python manage.py migrate
 ### 4-Run the development server:
 python manage.py runserver
 
-##API Endpoints
+### API Endpoints
 Menu Items
 
    + GET /api/menu-items/: Retrieve a list of all menu items.
@@ -21,7 +21,6 @@ Menu Items
 ### Frontend Integration
 Integrate the API with your front end using the provided MenuItemsView and SingleMenuItemView. You can use the following example code:
 ### views.py
-
 from django.shortcuts import render
 import requests
 # Create your views here.
