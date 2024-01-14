@@ -19,7 +19,4 @@ Menu Items
    + GET /api/menu-items/{id}/: Retrieve details of a specific menu item by ID
 
 ### Snapscreen
-
-
-   ![screen-recorder-sun-jan-14-2024-17-33-38](https://github.com/Mu5alaf/LittleLemonAPI/assets/109148687/417db01e-6dc9-43d3-92c2-bf857e4a69e7)
- 
+![screen-recorder-sun-jan-14-2024-17-33-38](https://github.com/Mu5alaf/LittleLemonAPI/assets/109148687/8b0e50c2-b1bb-4d72-92e0-4054517fa3b0)
